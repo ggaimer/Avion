@@ -1,0 +1,53 @@
+.benefits__section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.benefits__item {
+    padding-top: 40px;
+    grid-column: 3 span;
+    background-position: left top;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+
+.benefits__item-next {
+    background-image: url("../../img/icons/benefits-1.svg");
+}
+
+.benefits__item-made {
+    background-image: url("../../img/icons/benefits-2.svg");
+}
+
+.benefits__item-prices {
+    background-image: url("../../img/icons/benefits-3.svg");
+}
+
+.benefits__item-packaging {
+    background-image: url("../../img/icons/benefits-4.svg");
+}
+
+.benefits__subtitle {
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: var(--second-family);
+    color: var(--dark-primary);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.benefits__desc {
+    margin: 0;
+    color: var(--dark-primary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.benefits--about .benefits__item {
+    padding: 48px;
+    padding-top: 84px;
+    background-color: var(--light-grey);
+    background-position: 48px 48px;
+}

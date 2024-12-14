@@ -1,0 +1,104 @@
+.btn {
+    padding: 16px 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    border: none;
+
+    transition: var(--main-trs);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn--theme-dark {
+    color: var(--white);
+    background-color: #f9f9f926;
+}
+
+.btn--theme-darker {
+    color: var(--white);
+    background-color: var(--dark-primary);
+}
+
+.btn--theme-light {
+    color: var(--dark-primary);
+    background-color: var(--light-grey);
+}
+
+.btn--theme-white {
+    color: var(--dark-primary);
+    background-color: var(--white);
+}
+
+.btn--with-icon {
+    gap: 12px;
+}
+
+.btn--with-icon svg {
+    transition: transform 0.3s ease;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:focus-visible {
+    outline: 2px dashed var(--dark-primary);
+	outline-offset: var(--outline-offset);
+}
+
+@media (any-hover: hover) {
+    .btn--theme-dark:hover {
+        color: var(--dark-primary);
+        background-color: var(--light-grey);
+    }
+}
+
+.btn--theme-dark:active {
+    color: var(--white);
+    background-color: var(--dark-primary);
+}
+
+
+@media (any-hover: hover) {
+    .btn--theme-light:hover {
+        color: var(--white);
+        background-color: var(--primary);
+    }
+}
+
+.btn--theme-light:active {
+    color: var(--white);
+    background-color: var(--dark-primary);
+}
+
+
+@media (any-hover: hover) {
+    .btn--theme-darker:hover {
+        color: var(--white);
+        background-color: var(--primary);
+    }
+}
+
+.btn--theme-darker:active {
+    color: var(--dark-primary);
+    background-color: var(--light-grey);
+}
+
+
+@media (any-hover: hover) {
+    .btn--theme-white:hover {
+        color: var(--white);
+        background-color: var(--primary);
+    }
+}
+
+.btn--theme-white:active {
+    color: var(--white);
+    background-color: var(--dark-primary);
+}

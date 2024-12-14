@@ -1,0 +1,134 @@
+.cart__section {
+    padding: 84px 0;
+    background-color: var(--light-grey);
+}
+
+.cart__content {
+    padding: 72px 63px;
+    padding-bottom: 54px;
+    background-color: var(--white);
+}
+
+.cart__table {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--light-grey);
+    padding-bottom: 28px;
+}
+
+.cart-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 7px;
+}
+
+.cart__col {
+    grid-column: 6 span;
+}
+
+.cart__col--quantity {
+    grid-column: 2 span;
+    padding-left: 75px;
+}
+.cart__col--total {
+    grid-column: 2 span;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart__col--img {
+    grid-column: 1 span;
+}
+
+.cart__col--info {
+    grid-column: 5 span;
+}
+
+.cart__row:not(:last-of-type) {
+    margin-bottom: 32px;
+}
+
+.cart__row.cart__row--heading {
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--light-grey);
+    font-family: var(--second-family);
+    color: var(--dark-primary);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart__info {
+    max-width: 240px;
+    padding-left: 17px;
+    padding-top: 12px;
+}
+
+.cart__image {
+    display: block;
+}
+
+.cart__stepper {
+    padding-top: 12px;
+}
+
+.cart__title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: var(--second-family);
+    color: var(--dark-primary);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cart__desc {
+    margin: 0;
+    margin-bottom: 8px;
+    color: var(--dark-primary);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart__price {
+    color: var(--dark-primary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cart__total {
+    padding-top: 12px;
+    color: var(--dark-primary);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cart__bottom-info {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart__text {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart__subtotal {
+    font-family: var(--second-family);
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cart__subtotal--price {
+    margin-left: 16px;
+    font-family: var(--second-family);
+    color: var(--dark-primary);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cart__btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+}

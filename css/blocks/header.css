@@ -1,0 +1,92 @@
+.header {
+}
+
+.header__top {
+	--container-width: 1330px;
+	padding: 23px 0;
+}
+
+.header__bottom {
+	padding: 20px 0;
+	background-color: var(--light-grey);
+}
+
+.header__container {
+	display: flex;
+}
+
+.header__top-container {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__bottom-container {
+	justify-content: center;
+	align-items: center;
+}
+
+.header__info {
+	display: flex;
+	align-items: center;
+	gap: 47px;
+}
+
+.header__list {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.header__link {
+	color: #726e8d;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	transition: var(--main-trs);
+}
+
+.header__link:focus {
+	outline: none;
+}
+
+.header__link:focus-visible {
+	outline: var(--outline);
+	outline-offset: var(--outline-offset);
+}
+
+@media (any-hover: hover) {
+	.header__link:hover {
+        color: var(--primary);
+	}
+}
+
+.header__link:active {
+    color: var(--dark-primary);
+}
+
+.header__buttons {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.header__button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #2A254B;
+    transition: var(--main-trs);
+}
+
+.header__button svg path {
+    fill: currentColor;
+}
+
+.header__button:focus {
+	outline: none;
+}
+
+.header__button:focus-visible {
+	outline: var(--outline);
+	outline-offset: var(--outline-offset);
+}

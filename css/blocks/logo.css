@@ -1,0 +1,16 @@
+.logo {
+    text-decoration: none;
+}
+
+.logo img {
+    display: block;
+}
+
+.logo:focus {
+    overflow: none;
+}
+
+.logo:focus-visible {
+    outline: var(--outline);
+    outline-offset: var(--outline-offset);
+}
